@@ -18,7 +18,7 @@ Pastebin = (function () {
 
     // Default publish location
     // ATTENTION: this variable must be set for the app to create new bins
-    var defaultContainer = '';
+    var defaultContainer = 'https://gscard.databox.me/Applications/Pastebin/';
 
     function init() {
         document.getElementById('edit').classList.add('hidden');
